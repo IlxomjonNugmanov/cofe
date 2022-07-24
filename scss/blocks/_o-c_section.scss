@@ -1,0 +1,35 @@
+.our-colection{
+    margin-bottom: 188px;
+}
+.o-c__wrapper{
+    position: relative;
+    margin-bottom: 188px;
+}
+.o-c__img{
+    margin-left: 45px;
+}
+.o-c__list{
+    display: flex;
+    position: absolute;
+    top: 130;
+    justify-content: space-evenly;
+}
+.o-c__iteam{
+    width: 20%;
+    align-items: center;
+    text-align: center;
+}
+.o-c__title{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333D4B;
+}
+.o-c__itaem__wrapper>p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+}
