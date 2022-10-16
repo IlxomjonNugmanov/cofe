@@ -4,6 +4,14 @@
     background-color: #2C343E;
     border-radius: 10px;
 }
+.h-ch__wrapper__card{
+    width: 100%;
+
+    @media screen  and (max-width:900px){
+    
+       margin-bottom:  378px;
+    }
+}
 .h-ch__wrapper{
     text-align: center;
     position: relative;
@@ -34,12 +42,29 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    @media screen  and (max-width:1250px){
+        margin-left: 0px;
+        gap: 20px;
+        
+    }
+
+    @media screen  and (max-width:900px){
+    
+       display: flex;
+       flex-direction: column;
+    }
 }
 .h-ch__card{
     // padding: 75px;
     width: 350px;
     background: #0E8784;
     border-radius: 8px;
+
+
+    @media screen  and (max-width:768){
+        width: 768px; 
+     }
 }
 .h-ch__card:hover{
     background: #FDD6BA;

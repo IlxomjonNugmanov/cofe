@@ -1,5 +1,12 @@
 .our-colection{
     margin-bottom: 188px;
+
+
+
+    @media screen and (max-width:768px) {
+       max-width: 768px;
+
+    }
 }
 .o-c__wrapper{
     position: relative;
@@ -7,17 +14,45 @@
 }
 .o-c__img{
     margin-left: 45px;
+    
+
+    @media screen  and (max-width:1175px){
+        margin: 0 auto;
+        width: 100%; 
+     }
+
+    @media screen  and (max-width:768px){
+       margin-left: 0px;
+       width: 80%; 
+    }
 }
 .o-c__list{
     display: flex;
-    position: absolute;
-    top: 130;
+    // position: absolute;
+    // top: 130;
     justify-content: space-evenly;
+
+
+
+    @media screen  and (max-width:768px){
+       display: flex;
+       flex-wrap: wrap;
+    
+      
+    }
 }
 .o-c__iteam{
     width: 20%;
     align-items: center;
     text-align: center;
+
+
+    @media screen  and (max-width:768px){
+        width: 80px;
+        display: flex;
+        align-items: flex-start;
+    }
+
 }
 .o-c__title{
     font-weight: 900;

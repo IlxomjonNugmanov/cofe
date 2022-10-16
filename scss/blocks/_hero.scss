@@ -1,8 +1,14 @@
 .hero-section__wrapper{
     margin-bottom: 150px;
-    background-image: url(../../imgs/hero-section-img.png);
+    background-image: url(../imgs/hero-section-img.png);
     background-repeat: no-repeat;
-}
+    
+    
+    @media screen  and (max-width: 768px) {
+      background-image: url(../../imgs/hero\ 2.png) ;
+    
+    }
+}   
 .hero-section__wrapper-text{
     width: 493px;
     padding:100px 0 100px 86px ;
@@ -13,7 +19,17 @@
     font-size: 72px;
     line-height: 72px;
     color: #FEFCF7;
-}
+
+
+    @media screen  and (max-width: 768px) {
+      
+        font-size: 48px;
+        line-height: 48px;
+       
+      
+      }
+  }   
+
 .text{
     width: 445px;
     margin-bottom: 56px;
@@ -23,6 +39,12 @@
     color: #FEFCF7;
     mix-blend-mode: normal;
     opacity: 0.8;
+
+
+    @media screen  and (max-width: 768px) {
+        font-size: 15px;
+        line-height: 25px;      
+    }
 }
 .link{
     margin-bottom: 100px;

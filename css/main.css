@@ -349,8 +349,13 @@ template {
 
 .hero-section__wrapper {
   margin-bottom: 150px;
-  background-image: url(../../imgs/hero-section-img.png);
+  background-image: url(../imgs/hero-section-img.png);
   background-repeat: no-repeat;
+}
+@media screen and (max-width: 768px) {
+  .hero-section__wrapper {
+    background-image: url(../../imgs/hero\ 2.png);
+  }
 }
 
 .hero-section__wrapper-text {
@@ -364,6 +369,12 @@ template {
   line-height: 72px;
   color: #FEFCF7;
 }
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
 
 .text {
   width: 445px;
@@ -374,6 +385,12 @@ template {
   color: #FEFCF7;
   mix-blend-mode: normal;
   opacity: 0.8;
+}
+@media screen and (max-width: 768px) {
+  .text {
+    font-size: 15px;
+    line-height: 25px;
+  }
 }
 
 .link {
@@ -394,6 +411,11 @@ template {
 .our-colection {
   margin-bottom: 188px;
 }
+@media screen and (max-width: 768px) {
+  .our-colection {
+    max-width: 768px;
+  }
+}
 
 .o-c__wrapper {
   position: relative;
@@ -403,18 +425,41 @@ template {
 .o-c__img {
   margin-left: 45px;
 }
+@media screen and (max-width: 1175px) {
+  .o-c__img {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .o-c__img {
+    margin-left: 0px;
+    width: 80%;
+  }
+}
 
 .o-c__list {
   display: flex;
-  position: absolute;
-  top: 130;
   justify-content: space-evenly;
+}
+@media screen and (max-width: 768px) {
+  .o-c__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .o-c__iteam {
   width: 20%;
   align-items: center;
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .o-c__iteam {
+    width: 80px;
+    display: flex;
+    align-items: flex-start;
+  }
 }
 
 .o-c__title {
@@ -438,6 +483,15 @@ template {
   padding: 120px 0 200px 0;
   background-color: #2C343E;
   border-radius: 10px;
+}
+
+.h-ch__wrapper__card {
+  width: 100%;
+}
+@media screen and (max-width: 900px) {
+  .h-ch__wrapper__card {
+    margin-bottom: 378px;
+  }
 }
 
 .h-ch__wrapper {
@@ -474,11 +528,28 @@ template {
   align-items: center;
   justify-content: space-between;
 }
+@media screen and (max-width: 1250px) {
+  .h-ch__wrapper__card {
+    margin-left: 0px;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .h-ch__wrapper__card {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .h-ch__card {
   width: 350px;
   background: #0E8784;
   border-radius: 8px;
+}
+@media screen and (max-width: 768) {
+  .h-ch__card {
+    width: 768px;
+  }
 }
 
 .h-ch__card:hover {
